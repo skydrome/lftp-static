@@ -26,7 +26,6 @@ while (( "$#" )); do
       ;;
     -nodel|--no-delete)
       SKIP_DELETE='yes'
-      echo $SKIP_DELETE
       shift
       ;;
     -h|--help)
